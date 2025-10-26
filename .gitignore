@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# PyTorch / Machine Learning
+*.pth
+*.ckpt
+*.pt
+*.pkl
+models/
+*.h5
+*.onnx
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model Output
+output/
+generated/
+logs/
+tensorboard_logs/
+wandb/
+runs/
+
+# Data (görseller - Git'e eklemeyin)
+data/images/
+data/train/
+data/val/
+data/test/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+*.gif
+
+# Training outputs
+checkpoints/
+samples/
+results/
+experiments/
+
+# Python Environment
+.env
+.env.local
+
+# OS
+Thumbs.db
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
