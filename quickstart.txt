@@ -1,0 +1,67 @@
+=============================================
+GÖRSEL ÜRETME YAPAY ZEKA PROJESİ
+=============================================
+
+KENDI GÖRSEL ÜRETME YAPAY ZEKANIZ HAZIR!
+
+Proje Konumu: C:\Users\Wortex\image_generation_ai\
+
+=============================================
+HIZLI BAŞLANGIÇ
+=============================================
+
+1. KURULUM
+   pip install -r requirements.txt
+
+2. GÖRSEL HAZIRLAMA
+   - Görsellerinizi bir klasöre koyun
+   - Örnek: data\my_images\ klasörüne
+   - En az 1000 görsel önerilir
+
+3. EĞİTİM BAŞLATMA
+   python train.py --data_dir ./data/my_images --num_epochs 100 --batch_size 32
+
+4. GÖRSEL ÜRETME
+   python generate.py --model_path ./output/models/generator_epoch_100.pth --num_images 10
+
+=============================================
+DOSYALAR
+=============================================
+
+- README.md: Proje açıklaması
+- KURULUM.md: Detaylı kurulum kılavuzu
+- train.py: Model eğitim scripti
+- generate.py: Görsel üretme scripti
+- setup_check.py: Kurulum kontrolü
+- quick_start.py: Hızlı başlangıç örneği
+- requirements.txt: Gerekli kütüphaneler
+
+=============================================
+MODEL MİMARİSİ
+=============================================
+
+DCGAN (Deep Convolutional GAN)
+- Generator: Noise'dan görsel üretir
+- Discriminator: Gerçek/sahte ayırt eder
+- PyTorch ile implementasyon
+
+=============================================
+İPUÇLARI
+=============================================
+
+- Daha iyi sonuçlar için 10,000+ görsel kullanın
+- GPU kullanımı önerilir
+- Batch size GPU belleğinize göre ayarlayın
+- Epoch sayısını artırarak kaliteyi artırın
+
+=============================================
+YARDIM
+=============================================
+
+Detaylı bilgi için:
+- README.md - Genel bilgiler
+- KURULUM.md - Kurulum adımları
+- setup_check.py - Kurulum kontrolü
+
+Başarılar!
+
